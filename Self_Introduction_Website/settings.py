@@ -25,7 +25,7 @@ SECRET_KEY = '6vd3t-aneooss+l)%i1$=qjr8i_5jbr%y-50*fttct-oq!$rge'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['123.195.32.152']
+ALLOWED_HOSTS = ['123.195.32.152','127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Homepage' #要加這行，才可以讀到Homepage底下的templates資料夾
 ]
 
 MIDDLEWARE = [
